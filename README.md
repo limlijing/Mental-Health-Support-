@@ -1,4 +1,4 @@
-# health_app_fixed
+# Mental Health APP
 
 A new Flutter project.
 
