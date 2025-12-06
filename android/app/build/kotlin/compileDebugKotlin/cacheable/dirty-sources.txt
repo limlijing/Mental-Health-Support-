@@ -1,0 +1,1 @@
+C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\kotlin\com\example\health_app_fixed\MainActivity.kt

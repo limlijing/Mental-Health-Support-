@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.health_app_fixed"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="36" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:2:5-67
+15-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:2:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:3:5-79
+16-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:3:22-76
+17    <!--
+18 Required to query activities that can process text, see:
+19         https://developer.android.com/training/package-visibility and
+20         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+21
+22         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+23    -->
+24    <queries>
+24-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:40:5-45:15
+25        <intent>
+25-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:41:9-44:18
+26            <action android:name="android.intent.action.PROCESS_TEXT" />
+26-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:42:13-72
+26-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:42:21-70
+27
+28            <data android:mimeType="text/plain" />
+28-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:43:13-50
+28-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:43:19-48
+29        </intent>
+30    </queries>
+31
+32    <permission
+32-->[androidx.core:core:1.13.0] C:\Users\lijin\.gradle\caches\8.13\transforms\f73987e7559410618dc04325d9d742d8\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.health_app_fixed.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.0] C:\Users\lijin\.gradle\caches\8.13\transforms\f73987e7559410618dc04325d9d742d8\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.0] C:\Users\lijin\.gradle\caches\8.13\transforms\f73987e7559410618dc04325d9d742d8\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.health_app_fixed.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.0] C:\Users\lijin\.gradle\caches\8.13\transforms\f73987e7559410618dc04325d9d742d8\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.0] C:\Users\lijin\.gradle\caches\8.13\transforms\f73987e7559410618dc04325d9d742d8\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:4:5-34:19
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.13.0] C:\Users\lijin\.gradle\caches\8.13\transforms\f73987e7559410618dc04325d9d742d8\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:6:9-43
+43        android:label="Mental Heath Support"
+43-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:5:9-45
+44        android:testOnly="true" >
+45        <activity
+45-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:7:9-28:20
+46            android:name="com.example.health_app_fixed.MainActivity"
+46-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:8:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:13:13-163
+48            android:exported="true"
+48-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:9:13-36
+49            android:hardwareAccelerated="true"
+49-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:14:13-47
+50            android:launchMode="singleTop"
+50-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:10:13-43
+51            android:taskAffinity=""
+51-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:11:13-36
+52            android:theme="@style/LaunchTheme"
+52-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:12:13-47
+53            android:windowSoftInputMode="adjustResize" >
+53-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:15:13-55
+54
+55            <!--
+56                 Specifies an Android theme to apply to this Activity as soon as
+57                 the Android process has started. This theme is visible to the user
+58                 while the Flutter UI initializes. After that, this theme continues
+59                 to determine the Window background behind the Flutter UI.
+60            -->
+61            <meta-data
+61-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:20:13-23:17
+62                android:name="io.flutter.embedding.android.NormalTheme"
+62-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:21:15-70
+63                android:resource="@style/NormalTheme" />
+63-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:22:15-52
+64
+65            <intent-filter>
+65-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:24:13-27:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:25:17-68
+66-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:25:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:26:17-76
+68-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:26:27-74
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+75-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:31:9-33:33
+76            android:name="flutterEmbedding"
+76-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:32:13-44
+77            android:value="2" />
+77-->C:\Users\lijin\AndroidStudioProjects\health_app_fixed\android\app\src\main\AndroidManifest.xml:33:13-30
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lijin\.gradle\caches\8.13\transforms\b3faee836265bd213ca52ae23e4dbf97\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lijin\.gradle\caches\8.13\transforms\b3faee836265bd213ca52ae23e4dbf97\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.health_app_fixed.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lijin\.gradle\caches\8.13\transforms\b3faee836265bd213ca52ae23e4dbf97\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lijin\.gradle\caches\8.13\transforms\b3faee836265bd213ca52ae23e4dbf97\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lijin\.gradle\caches\8.13\transforms\b3faee836265bd213ca52ae23e4dbf97\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lijin\.gradle\caches\8.13\transforms\b3faee836265bd213ca52ae23e4dbf97\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lijin\.gradle\caches\8.13\transforms\b3faee836265bd213ca52ae23e4dbf97\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\lijin\.gradle\caches\8.13\transforms\587bcc0f6a6c7b4dbb521ae7cb2dd5a3\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\lijin\.gradle\caches\8.13\transforms\587bcc0f6a6c7b4dbb521ae7cb2dd5a3\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\lijin\.gradle\caches\8.13\transforms\587bcc0f6a6c7b4dbb521ae7cb2dd5a3\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lijin\.gradle\caches\8.13\transforms\3bc5f57be6d3a87c74b3bf786d859155\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>

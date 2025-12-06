@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "176520889966",
+    "project_id": "mental-health-app-2eeeb",
+    "storage_bucket": "mental-health-app-2eeeb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176520889966:android:dcbdcae0b8ad79e2eac87f",
+        "android_client_info": {
+          "package_name": "com.example.health_app_fixed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176520889966-2br7c7brr1nkfqvoefs811c186oae296.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1oPt3ZWz0PTYVHupkvPneyjhm4H_y1QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176520889966-2br7c7brr1nkfqvoefs811c186oae296.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176520889966:android:ab97ef47b5f41199eac87f",
+        "android_client_info": {
+          "package_name": "com.example.health_app_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176520889966-2br7c7brr1nkfqvoefs811c186oae296.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1oPt3ZWz0PTYVHupkvPneyjhm4H_y1QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176520889966-2br7c7brr1nkfqvoefs811c186oae296.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
